@@ -1,0 +1,34 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variables may contain sensitive values
+*.tfvars
+*.tfvars.json
+
+# SSH private keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Environment files
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
